@@ -1,0 +1,9 @@
+        Scan Mode
+data has been accepted, enter keys for further operations
+KEY:
+	q:     quit scan_mode
+	help:  show help
+	searchid:  search student id then modify the scores
+	o:     save student data in data/output
+
+
