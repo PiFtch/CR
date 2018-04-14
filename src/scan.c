@@ -1,5 +1,6 @@
 // scan mode 
-
+#include "../include/scan.h"
+/*
 #include <stdio.h>
 #include <readline/readline.h>
 #include <readline/history.h>
@@ -29,6 +30,7 @@ void scan_search_id(struct stuinfo *p);
 void scan_avg(struct stuinfo *p);
 void scan_o(struct stuinfo *p);
 
+*/
 
 void scan_mode(struct stuinfo *phead) {
 	printf("enter scan mode\n");
@@ -116,6 +118,7 @@ bool scan_cmd_o(char *str) {
 	return false;
 }
 
+float sum_score[4] = {0,0,0,0};
 void scan_avg(struct stuinfo *p) {
 	float sum = 0.0;
 	while (p != NULL) {
@@ -125,6 +128,7 @@ void scan_avg(struct stuinfo *p) {
 			sum += (p->score)[i];
 */
 		p->avg = sum / 4;
+		
 		p = p->next;
 		sum = 0.0;
 	}

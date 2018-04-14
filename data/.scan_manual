@@ -4,6 +4,8 @@ KEY:
 	q:     quit scan_mode
 	help:  show help
 	searchid:  search student id then modify the scores
+	avg:   calculate students' average scores
+	sort:  sort by avg from high to low
 	o:     save student data in data/output
-
+	
 

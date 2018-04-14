@@ -1,3 +1,5 @@
+#include "../include/exec.h"
+/*
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -11,6 +13,7 @@ struct stuinfo {
 };
 
 void scan_mode(struct stuinfo *p);
+*/
 void exec_add() {
 	struct {
 		char *num;
