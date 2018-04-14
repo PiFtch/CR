@@ -1,5 +1,6 @@
 // cmd.c -- resolute the command user entered and execute relevant operations
-
+#include "../include/cmd.h"
+/*
 #include <string.h>
 #include <stdbool.h>
 void show_manual();
@@ -9,6 +10,7 @@ bool cmd_add(char *str);
 bool cmd_scan(char *str);
 void exec_scan(void);
 void exec_add(void);
+*/
 bool cmd(char* str) {
 	if (cmd_q(str)) {
 		return true;

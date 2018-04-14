@@ -1,3 +1,5 @@
+#include "include/main.h"
+/*
 #include <stdio.h>
 #include <readline/readline.h>
 #include <readline/history.h>
@@ -6,6 +8,7 @@
 void show_manual();
 //bool cmd_q(char* str);
 bool cmd(char* str);
+*/
 void main() {
 	printf("This is a student curriculum and performance management system.\n");
 	show_manual();	
